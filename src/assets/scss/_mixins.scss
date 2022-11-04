@@ -1,0 +1,47 @@
+// Transitions
+@mixin transition($transition...) {
+  @if length($transition) == 0 {
+    transition: $transition-base;
+  } @else {
+    transition: $transition;
+  }
+
+  @media screen and (prefers-reduced-motion: reduce) {
+    transition: none;
+  }
+}
+
+// Color Swatches
+@mixin swatch($swatches...) {
+  @each $swatch in $swatches {
+    $i: index($swatches, $swatch);
+    &.swatch#{$i} {
+      background-color: $swatch;
+    }
+  }
+}
+
+// Buttons
+@mixin button-size($padding-y, $padding-x, $font-size, $line-height) {
+  padding: $padding-y $padding-x;
+  font-size: $font-size;
+  line-height: $line-height;
+}
+
+// Paragraph Sizing
+@mixin paragraph-sizing() {
+  max-width: $max-width;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 1.25rem; // 20px
+  @media (min-width: $grid-md) {
+    // padding: 0 4rem; // 64px
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  @media (min-width: $grid-lg) {
+    // padding: 0 6rem; // 96px
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+}
