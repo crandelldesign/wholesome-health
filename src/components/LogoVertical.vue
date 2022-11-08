@@ -25,10 +25,17 @@
 </template>
 
 <style>
-.e {
+.e,
+.st1 {
   fill: #06659e;
 }
-.f {
+
+.f,
+.st0 {
   fill: #529040;
+}
+
+.st-black {
+  fill: #000;
 }
 </style>

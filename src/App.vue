@@ -1,5 +1,5 @@
 <script setup>
-import { RouterView } from "vue-router";
+import { RouterView } from 'vue-router';
 </script>
 
 <template>
@@ -9,6 +9,8 @@ import { RouterView } from "vue-router";
 </template>
 
 <style lang="scss">
-@import "@/assets/scss/_reboot.scss";
-@import "@/assets/scss/_global.scss";
+/* stylelint-disable scss/at-import-no-partial-leading-underscore */
+@import '@/assets/scss/_reboot';
+@import '@/assets/scss/_global';
+@import '@/assets/scss/_color-swatches';
 </style>

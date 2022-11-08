@@ -1,10 +1,17 @@
 // Colors
 $blue: #06659e;
-// Common Colors
-$black: #000000;
+$green: #529040;
 
+// Common Colors
+$white: #fff;
+$black: #000;
 $body-color: $black;
 $body-bg: #fff;
+$colors: (
+  'blue': $blue,
+  'green': $green,
+  'black': $black,
+);
 
 // General
 $spacer: 1rem;
@@ -14,9 +21,9 @@ $font-family-base: 'Source Sans Pro', sans-serif;
 $font-size-base: 1rem; // 16px
 $font-weight-base: 400;
 $line-height-base: 1.5;
+$headings-font-family: 'Quicksand', sans-serif;
 $headings-margin-bottom: calc($spacer / 2);
 $paragraph-margin-bottom: 1rem;
-
 $link-color: $blue;
 $link-decoration: underline;
 $link-hover-color: $blue;
@@ -32,12 +39,12 @@ $grid-xl: 1200px;
 // Buttons and Forms
 $input-btn-padding-y: 0.375rem;
 $input-btn-padding-x: 0.75rem;
+
 // $input-btn-font-family: null;
 $input-btn-font-size: $font-size-base;
 $input-btn-line-height: $line-height-base;
 $input-btn-padding-y-sm: 0.25rem;
 $input-btn-padding-x-sm: 0.5rem;
-
 $label-margin-bottom: 0.5rem;
 $form-check-input-gutter: 1.25rem;
 $form-check-input-margin-y: 0.3rem;
