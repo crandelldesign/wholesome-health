@@ -40,7 +40,7 @@
         <li>DO NOT skew or stretch the logo</li>
       </ul>
       <h2>Download</h2>
-      <p><a href="/files/logos.zip" class="btn btn-primary">Download All Logos</a></p>
+      <p><a :href="`${baseUrl}files/logos.zip`" class="btn btn-primary">Download All Logos</a></p>
     </div>
     <div class="colors">
       <h1>Color Palette</h1>
@@ -89,7 +89,7 @@
       </p>
       <p class="details">Font: Source Sans Pro</p>
 
-      <p><a href="/files/fonts.zip" class="btn btn-primary">Download All Fonts</a></p>
+      <p><a :href="`${baseUrl}files/fonts.zip`" class="btn btn-primary">Download All Fonts</a></p>
     </div>
   </div>
 </template>
@@ -100,8 +100,10 @@ export default {
   components: {
     LogoVertical,
   },
-  mounted() {
-    console.log(import.meta.env.BASE_URL);
+  computed: {
+    baseUrl() {
+      return import.meta.env.BASE_URL;
+    },
   },
 };
 </script>
