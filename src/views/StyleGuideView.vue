@@ -100,6 +100,9 @@ export default {
   components: {
     LogoVertical,
   },
+  mounted() {
+    console.log(import.meta.env.BASE_URL);
+  },
 };
 </script>
 
