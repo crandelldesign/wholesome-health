@@ -20,7 +20,7 @@
       <div class="logo-container">
         <img src="@/assets/logos/logo-only.svg?external" alt="Logo" />
       </div>
-      <h2>Logo and Wordmark Vertical - Black</h2>
+      <h2>Logo and Wordmark Vertical - Black and White</h2>
       <div class="logo-container">
         <img src="@/assets/logos/logo-and-wordmark-vertical-black.svg?external" alt="Logo" />
       </div>
@@ -39,6 +39,8 @@
         <li>DO only use the versions of the logo seen above</li>
         <li>DO NOT skew or stretch the logo</li>
       </ul>
+      <h2>Download</h2>
+      <p><a href="/files/logos.zip" class="btn btn-primary">Download All Logos</a></p>
     </div>
     <div class="colors">
       <h1>Color Palette</h1>
@@ -86,6 +88,8 @@
         faucibus duis. Non diam amet, elit nec semper.
       </p>
       <p class="details">Font: Source Sans Pro</p>
+
+      <p><a href="/files/fonts.zip" class="btn btn-primary">Download All Fonts</a></p>
     </div>
   </div>
 </template>

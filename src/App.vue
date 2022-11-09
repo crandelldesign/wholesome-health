@@ -12,5 +12,6 @@ import { RouterView } from 'vue-router';
 /* stylelint-disable scss/at-import-no-partial-leading-underscore */
 @import '@/assets/scss/_reboot';
 @import '@/assets/scss/_global';
+@import '@/assets/scss/_buttons';
 @import '@/assets/scss/_color-swatches';
 </style>

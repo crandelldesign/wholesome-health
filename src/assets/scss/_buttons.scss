@@ -1,0 +1,55 @@
+// Buttons
+.btn {
+  display: inline-block;
+
+  // font-family: $input-btn-font-family;
+  // font-weight: $btn-font-weight;
+  color: $body-color;
+  text-align: center;
+  text-decoration: none;
+
+  // white-space: $btn-white-space;
+  vertical-align: middle;
+  user-select: none;
+  background-color: transparent;
+  border: $border-width solid transparent;
+  border-radius: $border-radius;
+  @include button-size($input-btn-padding-y, $input-btn-padding-x, $input-btn-font-size, $input-btn-line-height);
+  @include transition(
+    color 0.3s ease-in-out,
+    background-color 0.3s ease-in-out,
+    border-color 0.3s ease-in-out,
+    box-shadow 0.3s ease-in-out
+  );
+
+  &:hover,
+  &.hover {
+    color: $body-color;
+    text-decoration: none;
+  }
+
+  &:focus,
+  &.focus {
+    // outline: 0;
+    &:not(:focus-visible) {
+      outline: none;
+    }
+  }
+
+  &:not(:disabled, .disabled) {
+    cursor: pointer;
+  }
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: $green;
+  border-color: darken($green, 10%);
+
+  // @include shadow-1();
+  &:hover,
+  &:focus {
+    color: #fff;
+    background-color: darken($green, 10%);
+  }
+}
