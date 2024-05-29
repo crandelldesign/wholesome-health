@@ -3,7 +3,7 @@
   display: inline-block;
 
   // font-family: $input-btn-font-family;
-  // font-weight: $btn-font-weight;
+  font-weight: $btn-font-weight;
   color: $body-color;
   text-align: center;
   text-decoration: none;
@@ -42,14 +42,46 @@
 }
 
 .btn-primary {
-  color: #fff;
+  color: $white;
   background-color: $green;
-  border-color: darken($green, 10%);
+  border-color: $dollar-bill;
 
   // @include shadow-1();
   &:hover,
   &:focus {
-    color: #fff;
-    background-color: darken($green, 10%);
+    color: $white;
+    background-color: $greenhouse;
   }
+}
+
+.btn-secondary {
+  color: $white;
+  background-color: $blue;
+  border-color: $dodger-blue;
+
+  &:hover,
+  &:focus {
+    color: $white;
+    background-color: $dark-sea-blue;
+  }
+}
+
+.btn-tertiary {
+  color: $greenhouse;
+  background-color: $white;
+  border-color: $white;
+
+  &:hover,
+  &:focus {
+    color: $white;
+    background-color: transparent;
+  }
+}
+
+.btn-lg {
+  @include button-size($input-btn-padding-y-lg, $input-btn-padding-x-lg, $font-size-lg, $border-radius-lg);
+}
+
+.btn-sm {
+  @include button-size($input-btn-padding-y-sm, $input-btn-padding-x-sm, $font-size-sm, $border-radius-sm);
 }

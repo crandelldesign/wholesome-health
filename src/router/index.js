@@ -9,6 +9,11 @@ const router = createRouter({
       name: 'home',
       component: StyleGuideView,
     },
+    {
+      path: '/logo',
+      name: 'logo',
+      component: () => import('@/views/StyleGuideLogoView.vue'),
+    },
   ],
 });
 

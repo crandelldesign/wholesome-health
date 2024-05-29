@@ -13,5 +13,7 @@ import { RouterView } from 'vue-router';
 @import '@/assets/scss/_reboot';
 @import '@/assets/scss/_global';
 @import '@/assets/scss/_buttons';
+@import '@/assets/scss/_dropdowns';
+@import '@/assets/scss/_transitions';
 @import '@/assets/scss/_color-swatches';
 </style>

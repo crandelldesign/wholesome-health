@@ -55,8 +55,11 @@ export default defineConfig({
         additionalData: `
           @use 'sass:math';
           @use 'sass:list';
+          @use "sass:color";
+          @import '@/assets/scss/_functions.scss';
           @import '@/assets/scss/_variables.scss';
           @import '@/assets/scss/_mixins.scss';
+          @import '@/assets/scss/_caret.scss';
         `,
       },
     },

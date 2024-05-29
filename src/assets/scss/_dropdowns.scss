@@ -1,0 +1,38 @@
+// Dropdowns
+// The dropdown wrapper (`<div>`)
+.dropup,
+.dropend,
+.dropdown,
+.dropstart,
+.dropup-center,
+.dropdown-center {
+  position: relative;
+}
+
+.dropdown-toggle {
+  white-space: nowrap;
+
+  // Generate the caret automatically
+  @include caret;
+}
+
+.dropdown-menu {
+  position: absolute;
+  z-index: 1000;
+  display: none; // none by default, but block on "open" of the menu
+  min-width: 160px;
+  padding: 0.5rem 0; // 8px
+  list-style: none;
+  border: 1px solid rgba($color: $black, $alpha: 17.5%);
+  border-radius: 0.625rem; // 10px
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1rem; // 4px 16px
+}
