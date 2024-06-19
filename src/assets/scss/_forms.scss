@@ -1,0 +1,81 @@
+// Forms
+
+.gform_wrapper.gravity-theme .gform_fields {
+  display: grid;
+  grid-template-rows: repeat(auto-fill, auto);
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 16px 2%;
+  width: 100%;
+  -ms-grid-columns: (1fr 2%) [12];
+}
+
+.gform_wrapper.gravity-theme .gfield {
+  grid-column: 1 / -1;
+  min-width: 0;
+}
+
+.ginput_container {
+  input,
+  textarea {
+    display: block;
+    width: 100%;
+    padding: $input-btn-padding-y $input-btn-padding-x;
+    font-family: $font-family-base;
+    border: $border-width solid rgba($color: $black, $alpha: 65%);
+    border-radius: $border-radius-alt;
+  }
+
+  textarea {
+    min-height: $input-height;
+  }
+}
+
+.hidden_label .gfield_label {
+  @include hide-element;
+}
+
+.gfield_radio {
+  display: flex;
+  align-items: center;
+}
+
+.gfield.gf_list_inline .gfield_radio .gchoice {
+  // display: inline-block;
+  display: flex;
+  align-items: center;
+
+  // display: flex;
+  padding-right: 1rem; // 16px
+  label {
+    margin-bottom: 0;
+  }
+}
+
+.ginput_container .gfield-choice-input {
+  top: 0;
+  display: inline-block;
+  width: 1.5em;
+  margin-top: 0;
+  vertical-align: middle;
+  accent-color: $blue;
+}
+
+.gfield--type-honeypot {
+  position: absolute !important;
+  left: -9000px;
+  display: none !important;
+}
+
+.gform_footer {
+  margin: 1rem 0;
+}
+
+.gfield_required {
+  padding-left: 0.125em;
+  font-size: 0.875rem; // 14px
+  color: $danger;
+
+  .gfield_required_text {
+    font-weight: $font-weight-base;
+  }
+}

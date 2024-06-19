@@ -27,7 +27,7 @@ onMounted(() => {
       </div><!--service-title-->
       <div class="service-content">
         <p>
-          <a href="https://www.yourwholesomehealthcoach.com/our-services/?customize_changeset_uuid=b3bb6d6b-def3-4116-ba54-1c08a782b719&amp;customize_autosaved=on&amp;customize_messenger_channel=preview-38"><img src="https://www.yourwholesomehealthcoach.com/wp-content/uploads/2023/04/consultation2.jpg"></a>
+          <a href="https://www.yourwholesomehealthcoach.com/our-services/?customize_changeset_uuid=b3bb6d6b-def3-4116-ba54-1c08a782b719&amp;customize_autosaved=on&amp;customize_messenger_channel=preview-38"><img src="https://www.yourwholesomehealthcoach.com/wp-content/uploads/2023/04/vitality.jpg"></a>
         </p>
       </div><!--service-content-->
       <div class="service-button">
@@ -65,6 +65,8 @@ onMounted(() => {
       display: flex;
       align-items: center;
       height: 100%;
+      overflow: hidden;
+      border-radius: $border-radius-alt;
     }
 
     img {

@@ -7,6 +7,7 @@ $greenhouse: #37612e; // #37612e
 $beyond-blue: color.scale($blue, $lightness: 15%); // #107ac5
 $dodger-blue: color.scale($blue, $lightness: 30%); // #16A2F6
 $dark-sea-blue: color.scale($blue, $lightness: -25%); // #054c77
+$danger: #a24854;
 
 // Common Colors
 $white: #fff;
@@ -58,6 +59,7 @@ $border-width: 2px;
 $border-radius: 25px 25px 25px 25px / 50% 50% 50% 50%;
 $border-radius-sm: 15px 15px 15px 15px / 50% 50% 50% 50%;
 $border-radius-lg: 35px 35px 35px 35px / 50% 50% 50% 50%;
+$border-radius-alt: 0.625rem; // 10px
 
 // Buttons and Forms
 $btn-font-weight: 600;
@@ -77,6 +79,9 @@ $form-check-input-margin-y: 0.3rem;
 $form-check-input-margin-x: 0.25rem;
 $form-check-inline-margin-x: 0.75rem;
 $form-check-inline-input-margin-x: 0.3125rem;
+$input-height: add($input-btn-line-height * 1em, add($input-btn-padding-y * 2, $border-width, false));
+$legend-font-size: 1rem;
+$legend-font-weight: 700;
 
 // Navbar
 $nav-link-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;

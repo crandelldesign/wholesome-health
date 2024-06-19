@@ -6,6 +6,8 @@ import ImgButton from '@/components/ImgButton.vue';
 import LearnMoreBox from '@/components/LearnMoreBox.vue';
 import LogoVertical from '@/components/LogoVertical.vue';
 import BaseNavbar from '../components/BaseNavbar.vue';
+import BaseMasthead from '../components/BaseMasthead.vue';
+import ContactForms from '@/components/ContactForms.vue';
 
 const colorPalette = ref([
   {
@@ -159,13 +161,15 @@ const baseUrl = computed(() => {
     </div>
     <div>
       <h1>Forms</h1>
-    </div>
-    <div>
-      <h1>Masthead</h1>
+      <ContactForms />
     </div>
     <div class="span-2">
       <h1>Nav</h1>
       <BaseNavbar class="full-screen" />
+    </div>
+    <div class="span-2">
+      <h1>Masthead</h1>
+      <BaseMasthead class="full-screen" />
     </div>
   </div>
 </template>

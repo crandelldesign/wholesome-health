@@ -1,8 +1,8 @@
 // Buttons
-.btn {
+.btn,
+.gform_button {
   display: inline-block;
-
-  // font-family: $input-btn-font-family;
+  font-family: $font-family-base;
   font-weight: $btn-font-weight;
   color: $body-color;
   text-align: center;
@@ -41,7 +41,8 @@
   }
 }
 
-.btn-primary {
+.btn-primary,
+.gform_button {
   color: $white;
   background-color: $green;
   border-color: $dollar-bill;

@@ -64,3 +64,16 @@
     margin-left: 6rem;
   }
 }
+
+@mixin hide-element() {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  word-wrap: normal !important;
+  border: 0;
+}

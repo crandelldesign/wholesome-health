@@ -234,6 +234,7 @@ header.header {
 
     .dropdown-menu {
       position: static;
+      background-color: $white;
       @media (min-width: $grid-lg) {
         position: absolute;
         top: 100%;
