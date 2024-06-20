@@ -34,7 +34,7 @@
       <div class="container-fluid">
       <!-- <a class="navbar-brand" href="#">Navbar</a> -->
       <div class="navbar-brand" itemscope="" itemtype="https://schema.org/Organization">
-        <a itemprop="url" href="https://yourwholesomehealthcoach.local" rel="nofollow"><img itemprop="logo" src="https://yourwholesomehealthcoach.local/wp-content/uploads/2024/04/Logo-and-Wordmark-Horizontal.svg" alt="Wholesome Health Logo" data-src="https://yourwholesomehealthcoach.local/wp-content/uploads/2024/04/Logo-and-Wordmark-Horizontal.svg" decoding="async" class=" ls-is-cached lazyloaded"><noscript><img itemprop="logo" src="https://yourwholesomehealthcoach.local/wp-content/uploads/2024/04/Logo-and-Wordmark-Horizontal.svg" alt="Wholesome Health Logo" data-eio="l"></noscript>
+        <a itemprop="url" href="https://yourwholesomehealthcoach.com" rel="nofollow"><img itemprop="logo" src="@/assets/logos/logo-and-wordmark-horizontal.svg?external" alt="Wholesome Health Logo" class=" ls-is-cached lazyloaded">
         </a>
       </div><!--logo-->
 
