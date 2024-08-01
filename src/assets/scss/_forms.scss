@@ -47,6 +47,7 @@
   // display: flex;
   padding-right: 1rem; // 16px
   label {
+    max-width: none;
     margin-bottom: 0;
   }
 }
@@ -70,7 +71,8 @@
   margin: 1rem 0;
 }
 
-.gfield_required {
+.gfield_required,
+.pre-footer-form .gform_wrapper.gravity-theme .gfield_required {
   padding-left: 0.125em;
   font-size: 0.875rem; // 14px
   color: $danger;

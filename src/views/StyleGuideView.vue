@@ -8,6 +8,7 @@ import LogoVertical from '@/components/LogoVertical.vue';
 import BaseNavbar from '../components/BaseNavbar.vue';
 import BaseMasthead from '../components/BaseMasthead.vue';
 import ContactForms from '@/components/ContactForms.vue';
+import BaseFooter from '@/components/BaseFooter.vue';
 
 const colorPalette = ref([
   {
@@ -170,6 +171,10 @@ const baseUrl = computed(() => {
     <div class="span-2">
       <h1>Masthead</h1>
       <BaseMasthead class="full-screen" />
+    </div>
+    <div class="span-2">
+      <h1>Footer</h1>
+      <BaseFooter class="full-screen" />
     </div>
   </div>
 </template>
